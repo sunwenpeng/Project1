@@ -34,6 +34,16 @@ describe('button_test',function(){
         var result=document.getElementById("txt2").innerText == "您已猜了6次！";
         expect(result).toBeTruthy();
     })
-
+    it('onclick 确认 should put out 您猜对了！',function(){
+        times=0   ;
+        btn_click()  ;
+        localStorage.setItem("random_number", 1234);
+        document.getElementById('guess').value = 1435 ;
+        btn_click_1();
+        document.getElementById('guess').value = 1234 ;
+        btn_click_1();
+        var result=document.getElementById("txt2").innerText == "猜对了！";
+        expect(result).toBeTruthy();
+    })
 
 })
