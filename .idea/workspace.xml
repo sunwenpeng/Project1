@@ -47,7 +47,7 @@
       <file leaf-file-name="button_test.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/button_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="3" selection-start="598" selection-end="598" vertical-scroll-proportion="0.3820034">
+            <state line="36" column="2" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.89813244">
               <folding />
             </state>
           </provider>
@@ -374,7 +374,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/button_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="598" selection-end="598" vertical-scroll-proportion="0.3820034">
+        <state line="36" column="2" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.89813244">
           <folding />
         </state>
       </provider>
