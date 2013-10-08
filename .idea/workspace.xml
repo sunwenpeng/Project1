@@ -56,7 +56,7 @@
       <file leaf-file-name="integration_test.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/integration_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="4" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.7640068">
+            <state line="40" column="7" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.9490662">
               <folding />
             </state>
           </provider>
@@ -390,7 +390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/integration_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.7640068">
+        <state line="40" column="7" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.9490662">
           <folding />
         </state>
       </provider>
