@@ -21,5 +21,23 @@ describe('random_num', function () {
         result = j<=10;
         expect(result).toBeTruthy();
     });
+    it('it should be different number', function () {
+            var result;
+            var randomnumber=random_num();
+            var a = randomnumber % 10;
+            var b = Math.floor(randomnumber/10) % 10;
+            var c = Math.floor(randomnumber/100) % 10;
+            var d = Math.floor(randomnumber/1000) %10;
+            console.log(a);  console.log(b); console.log(c); console.log(d);
+            if  (d!=0) {
 
+                //  expect(a != b && b != c && c != d && a != c && a != d && b != d).toBeTruthy();
+
+                result = a!=b&&a!=c&&a!=d&&b!=c&&b!=d&&c!=d}
+            if(d==0)    {
+                result= a!=b&&a!=c&&b!=c&&a!=0&&b!=0&&c!=0
+            }
+            expect(result).toBeTruthy(); }
+
+    );
 });
