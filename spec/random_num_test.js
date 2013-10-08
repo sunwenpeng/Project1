@@ -7,5 +7,19 @@ describe('random_num', function () {
 
         expect(result).toBeTruthy();
     });
+    it('number should be random', function () {
+        var result;
+        var j = 0;
+        var a = random_num();
+        for (var i = 1; i <= 1000; i++) {
+            if (a == random_num()) {
+                j++;
+            }
+        }
+
+
+        result = j<=10;
+        expect(result).toBeTruthy();
+    });
 
 });
